@@ -1,15 +1,14 @@
 doctype html
 html
-    script(src="https://code.jquery.com/jquery-3.6.3.min.js")
-    script(src="/javascripts/script.js")
-    head
-        title= title
-        link(rel='stylesheet', href='/stylesheets/style.css')
-        div
-            form(method="POST" id="setMenu1")
-                input(class="button1" type="submit", value="Menu1")
-            form(method="POST" id="setMenu2")
-                input(class="button2" type="submit", value="Menu2")
-    body
-        block content
-
+  script(src="https://code.jquery.com/jquery-3.6.3.min.js")
+  script(src="/javascripts/script.js")
+  head
+    title= title
+    link(rel="stylesheet", href="/stylesheets/style.css")
+    div
+      form#setMenu1(method="POST")
+        input.button1(type="submit", value="Menu1")
+      form#setMenu2(method="POST")
+        input.button2(type="submit", value="Menu2")
+  body
+    block content
