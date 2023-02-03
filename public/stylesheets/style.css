@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    background: #656b6a;
+    height: 60px;
+}
+
+input {
+    background-color: #9568e1;
+    padding: 10px;
+    width: 80px;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    display: table;
+    margin-left: 10px;
+    margin-top: 10px;
+}
